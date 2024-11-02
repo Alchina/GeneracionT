@@ -1,0 +1,12 @@
+.track {
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+    position: relative;
+}
+
+.track img {
+    position: absolute;
+    bottom: 0;
+    width: 50px;
+}
