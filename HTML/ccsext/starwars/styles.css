@@ -1,0 +1,78 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Imperio y Rebeldes */
+.imperio {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.rebeldes {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Darth Vader y Luke */
+#darth-vader {
+    font-size: 26px;
+}
+
+#luke {
+    font-style: italic;
+}
+
+/* Soldados */
+.soldado {
+    border: 2px dashed #555;
+    padding: 10px;
+    margin: 10px 0;
+    letter-spacing: 1.5px;
+    color: #333;
+    background-color: #fff;
+    border-radius: 8px;
+}
+
+/* Apoyo */
+.apoyo {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+}
+
+/* Naves */
+.naves {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #333;
+    background-color: #fafafa;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* Droides */
+.droides img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+/* Imagenes generales */
+img {
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    margin: 15px auto;
+    display: block;
+    max-width: 100%;
+}
