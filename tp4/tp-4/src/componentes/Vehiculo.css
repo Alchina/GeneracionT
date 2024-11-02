@@ -1,0 +1,19 @@
+.vehiculo-container {
+    background-color: #f0f4ff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+  }
+  
+  .vehiculo-titulo {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .vehiculo-velocidad {
+    font-size: 1rem;
+    color: #666;
+  }
+  

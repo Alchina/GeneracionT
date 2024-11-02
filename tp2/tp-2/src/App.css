@@ -1,0 +1,152 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+  background-color: #eef2f3; 
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 20px; 
+}
+
+
+h1 {
+  color: #4a4e69; 
+  text-align: center;
+  font-size: 2.8rem; 
+  margin: 30px 0; 
+  text-transform: uppercase; 
+  letter-spacing: 2px; 
+}
+
+h2 {
+  color: #22223b; 
+  text-align: center;
+  font-size: 1.6rem; 
+  margin: 15px 0; 
+}
+
+p {
+  color: #9a8c98; 
+  text-align: center;
+  font-size: 1.1rem; 
+}
+
+.container {
+  padding: 30px;
+  border-radius: 15px; 
+  background-color: #ffffff; 
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s, box-shadow 0.3s; 
+  margin-bottom: 20px; 
+}
+
+.container:hover {
+  transform: translateY(-5px); 
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.3); 
+}
+
+input[type="number"] {
+  padding: 15px; 
+  border: 2px solid #4a4e69;
+  border-radius: 5px; 
+  font-size: 1rem;
+  width: calc(100% - 30px);
+  max-width: 350px; 
+  display: block; 
+  margin: 20px auto; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  transition: border-color 0.3s; 
+}
+
+
+input[type="number"]:focus {
+  border-color: #9a8c98;
+  outline: none;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background-color: #d3cce3;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+li:hover {
+  background-color: #b5b2cf;
+}
+
+button {
+  background-color: #4a4e69;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+  background-color: #22223b;
+  transform: translateY(-2px);
+}
+
+.contador-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+}
+
+.contador {
+  font-size: 3rem;
+  color: #4a4e69;
+  margin: 20px 0;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+  .app-container {
+    margin: 10px;
+    padding: 15px;
+  }
+
+  button {
+    width: 100%;
+  }
+
+  input[type="number"] {
+    width: calc(100% - 20px);
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}

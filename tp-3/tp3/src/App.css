@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.product-list.light {
+  background-color: #f0f0f0;
+  color: #000;
+}
+
+.product-list.dark {
+  background-color: #121212;
+  color: #fff;
+}

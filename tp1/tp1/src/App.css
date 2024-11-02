@@ -1,0 +1,75 @@
+.App {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #e0eafc, #cfdef3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ui.grid {
+  margin-top: 20px;
+}
+
+.ui.card {
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.ui.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.character-detail {
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.character-detail:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ui.primary.button {
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #5a9;
+  color: #fff;
+  border-radius: 8px;
+  transition: background-color 0.3s;
+}
+
+.ui.primary.button:hover {
+  background-color: #48a;
+}
+
+.ui.segment {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 25px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.ui.segment .ui.list .item {
+  padding: 10px 0;
+  font-size: 1.1rem;
+}
+
+.ui.segment .ui.image {
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.ui.segment .ui.image:hover {
+  transform: scale(1.05);
+}
