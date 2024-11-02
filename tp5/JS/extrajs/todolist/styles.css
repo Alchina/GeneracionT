@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1a1a1a; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    color: #e0e0e0; 
+}
+
+h1 {
+    color: #ffcc00; 
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); 
+}
+
+.input-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: rgba(30, 30, 30, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.input {
+    width: 400px;
+    height: 40px;
+    padding: 0 15px;
+    border: 2px solid #666; 
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+    color: #e0e0e0; 
+    background: none;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #ffcc00; 
+}
+
+.boton-agregar {
+    width: 50px;
+    height: 40px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #28a745; 
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-agregar:hover {
+    background-color: #218838; 
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    background: rgba(40, 40, 40, 0.9); 
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+    padding: 10px;
+}
+
+.item-input {
+    flex: 1;
+    height: 40px;
+    padding: 0 10px;
+    border: 2px solid #666; 
+    border-radius: 5px;
+    font-size: 16px;
+    color: #e0e0e0; 
+    background: none;
+    outline: none;
+}
+
+.boton-editar {
+    margin: 0 5px;
+    border: none;
+    background: none;
+    color: #ffcc00; 
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.boton-editar:hover {
+    color: #ffc107; 
+}
+
+.boton-remover {
+    width: 50px;
+    height: 40px;
+    margin-left: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545; 
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-remover:hover {
+    background-color: #c82333; 
+}
